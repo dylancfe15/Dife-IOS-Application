@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C69BE788103ADF24CF630DE /* Pods_DifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C12D1D9D4AB552A45B08C /* Pods_DifeUITests.framework */; };
+		4EBD293A8C464842432E22D8 /* Pods_DifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A673A386279DB18E966002 /* Pods_DifeTests.framework */; };
+		AA9854E8CEF55858BBDBBDE7 /* Pods_Dife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F9F327FBF112695AED623F /* Pods_Dife.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		D551211D2057668000623B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D551211C2057668000623B21 /* AppDelegate.swift */; };
+		D551211F2057668000623B21 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D551211E2057668000623B21 /* homeViewController.swift */; };
+		D55121222057668000623B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55121202057668000623B21 /* Main.storyboard */; };
+		D55121252057668000623B21 /* Dife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D55121232057668000623B21 /* Dife.xcdatamodeld */; };
+		D55121272057668000623B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55121262057668000623B21 /* Assets.xcassets */; };
+		D551212A2057668000623B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55121282057668000623B21 /* LaunchScreen.storyboard */; };
+		D55121352057668000623B21 /* DifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55121342057668000623B21 /* DifeTests.swift */; };
+		D55121402057668000623B21 /* DifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D551213F2057668000623B21 /* DifeUITests.swift */; };
+		D551214E2057675A00623B21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D551214D2057675A00623B21 /* GoogleService-Info.plist */; };
+		D586B51D205F4EDC0066B40A /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586B51C205F4EDC0066B40A /* DatabaseController.swift */; };
+		D5F658BA2062C80500319246 /* feedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F658B92062C80500319246 /* feedbackViewController.swift */; };
+		D5F658BC20630DF700319246 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F658BB20630DF700319246 /* AlertController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D55121312057668000623B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D55121112057668000623B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55121182057668000623B21;
+			remoteInfo = Dife;
+		};
+		D551213C2057668000623B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D55121112057668000623B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55121182057668000623B21;
+			remoteInfo = Dife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0CC5C097C4A4E6269BC90D /* Pods-DifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DifeUITests/Pods-DifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26215373534636014DDE2126 /* Pods-Dife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dife.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dife/Pods-Dife.release.xcconfig"; sourceTree = "<group>"; };
+		540C12D1D9D4AB552A45B08C /* Pods_DifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F9F327FBF112695AED623F /* Pods_Dife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A673A386279DB18E966002 /* Pods_DifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55121192057668000623B21 /* Dife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D551211C2057668000623B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D551211E2057668000623B21 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		D55121212057668000623B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D55121242057668000623B21 /* Dife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dife.xcdatamodel; sourceTree = "<group>"; };
+		D55121262057668000623B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D55121292057668000623B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D551212B2057668000623B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55121302057668000623B21 /* DifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55121342057668000623B21 /* DifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifeTests.swift; sourceTree = "<group>"; };
+		D55121362057668000623B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D551213B2057668000623B21 /* DifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D551213F2057668000623B21 /* DifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifeUITests.swift; sourceTree = "<group>"; };
+		D55121412057668000623B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D551214D2057675A00623B21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D586B51C205F4EDC0066B40A /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		D5F658B92062C80500319246 /* feedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedbackViewController.swift; sourceTree = "<group>"; };
+		D5F658BB20630DF700319246 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		DB0F48AA85968746A874A63C /* Pods-DifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DifeTests/Pods-DifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E431CE5F3521526DC168E8 /* Pods-Dife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dife/Pods-Dife.debug.xcconfig"; sourceTree = "<group>"; };
+		F5689C4FB5E359F81E469163 /* Pods-DifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DifeTests/Pods-DifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4693D957BE88CF3A4BB5A2 /* Pods-DifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DifeUITests/Pods-DifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D55121162057668000623B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9854E8CEF55858BBDBBDE7 /* Pods_Dife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D551212D2057668000623B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBD293A8C464842432E22D8 /* Pods_DifeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55121382057668000623B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C69BE788103ADF24CF630DE /* Pods_DifeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA0B5BD3D5B2C4FD67EE58A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88F9F327FBF112695AED623F /* Pods_Dife.framework */,
+				A3A673A386279DB18E966002 /* Pods_DifeTests.framework */,
+				540C12D1D9D4AB552A45B08C /* Pods_DifeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		611623937485733CC5A8EDA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4E431CE5F3521526DC168E8 /* Pods-Dife.debug.xcconfig */,
+				26215373534636014DDE2126 /* Pods-Dife.release.xcconfig */,
+				F5689C4FB5E359F81E469163 /* Pods-DifeTests.debug.xcconfig */,
+				DB0F48AA85968746A874A63C /* Pods-DifeTests.release.xcconfig */,
+				FC4693D957BE88CF3A4BB5A2 /* Pods-DifeUITests.debug.xcconfig */,
+				1B0CC5C097C4A4E6269BC90D /* Pods-DifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D55121102057668000623B21 = {
+			isa = PBXGroup;
+			children = (
+				D551211B2057668000623B21 /* Dife */,
+				D55121332057668000623B21 /* DifeTests */,
+				D551213E2057668000623B21 /* DifeUITests */,
+				D551211A2057668000623B21 /* Products */,
+				611623937485733CC5A8EDA4 /* Pods */,
+				3CA0B5BD3D5B2C4FD67EE58A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D551211A2057668000623B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D55121192057668000623B21 /* Dife.app */,
+				D55121302057668000623B21 /* DifeTests.xctest */,
+				D551213B2057668000623B21 /* DifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D551211B2057668000623B21 /* Dife */ = {
+			isa = PBXGroup;
+			children = (
+				D551211C2057668000623B21 /* AppDelegate.swift */,
+				D551211E2057668000623B21 /* homeViewController.swift */,
+				D5F658BB20630DF700319246 /* AlertController.swift */,
+				D5F658B92062C80500319246 /* feedbackViewController.swift */,
+				D586B51C205F4EDC0066B40A /* DatabaseController.swift */,
+				D55121202057668000623B21 /* Main.storyboard */,
+				D55121262057668000623B21 /* Assets.xcassets */,
+				D55121282057668000623B21 /* LaunchScreen.storyboard */,
+				D551212B2057668000623B21 /* Info.plist */,
+				D55121232057668000623B21 /* Dife.xcdatamodeld */,
+				D551214D2057675A00623B21 /* GoogleService-Info.plist */,
+			);
+			path = Dife;
+			sourceTree = "<group>";
+		};
+		D55121332057668000623B21 /* DifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D55121342057668000623B21 /* DifeTests.swift */,
+				D55121362057668000623B21 /* Info.plist */,
+			);
+			path = DifeTests;
+			sourceTree = "<group>";
+		};
+		D551213E2057668000623B21 /* DifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D551213F2057668000623B21 /* DifeUITests.swift */,
+				D55121412057668000623B21 /* Info.plist */,
+			);
+			path = DifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D55121182057668000623B21 /* Dife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55121442057668000623B21 /* Build configuration list for PBXNativeTarget "Dife" */;
+			buildPhases = (
+				0DEFB8D6541EFF0B08E96EE9 /* [CP] Check Pods Manifest.lock */,
+				D55121152057668000623B21 /* Sources */,
+				D55121162057668000623B21 /* Frameworks */,
+				D55121172057668000623B21 /* Resources */,
+				BC4EBF2A8A19D6CB76B80ADB /* [CP] Embed Pods Frameworks */,
+				7D05BA688F366EF569CF8702 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dife;
+			productName = Dife;
+			productReference = D55121192057668000623B21 /* Dife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D551212F2057668000623B21 /* DifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55121472057668000623B21 /* Build configuration list for PBXNativeTarget "DifeTests" */;
+			buildPhases = (
+				465CC9496B9162BBA8979EBE /* [CP] Check Pods Manifest.lock */,
+				D551212C2057668000623B21 /* Sources */,
+				D551212D2057668000623B21 /* Frameworks */,
+				D551212E2057668000623B21 /* Resources */,
+				BDD66A75B7770CBEAD0112C2 /* [CP] Embed Pods Frameworks */,
+				EF6202F33E9EC041E5E19FFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55121322057668000623B21 /* PBXTargetDependency */,
+			);
+			name = DifeTests;
+			productName = DifeTests;
+			productReference = D55121302057668000623B21 /* DifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D551213A2057668000623B21 /* DifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D551214A2057668000623B21 /* Build configuration list for PBXNativeTarget "DifeUITests" */;
+			buildPhases = (
+				2DA21FC755BEC7ECA7A85E2D /* [CP] Check Pods Manifest.lock */,
+				D55121372057668000623B21 /* Sources */,
+				D55121382057668000623B21 /* Frameworks */,
+				D55121392057668000623B21 /* Resources */,
+				704C991ABBD5D2A24D4BC98E /* [CP] Embed Pods Frameworks */,
+				81317813A4BE74860BA77564 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D551213D2057668000623B21 /* PBXTargetDependency */,
+			);
+			name = DifeUITests;
+			productName = DifeUITests;
+			productReference = D551213B2057668000623B21 /* DifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D55121112057668000623B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "\U0003Difeng Chen";
+				TargetAttributes = {
+					D55121182057668000623B21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D551212F2057668000623B21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D55121182057668000623B21;
+					};
+					D551213A2057668000623B21 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D55121182057668000623B21;
+					};
+				};
+			};
+			buildConfigurationList = D55121142057668000623B21 /* Build configuration list for PBXProject "Dife" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D55121102057668000623B21;
+			productRefGroup = D551211A2057668000623B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D55121182057668000623B21 /* Dife */,
+				D551212F2057668000623B21 /* DifeTests */,
+				D551213A2057668000623B21 /* DifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D55121172057668000623B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D551214E2057675A00623B21 /* GoogleService-Info.plist in Resources */,
+				D551212A2057668000623B21 /* LaunchScreen.storyboard in Resources */,
+				D55121272057668000623B21 /* Assets.xcassets in Resources */,
+				D55121222057668000623B21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D551212E2057668000623B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55121392057668000623B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DEFB8D6541EFF0B08E96EE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA21FC755BEC7ECA7A85E2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		465CC9496B9162BBA8979EBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		704C991ABBD5D2A24D4BC98E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DifeUITests/Pods-DifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D05BA688F366EF569CF8702 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dife/Pods-Dife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81317813A4BE74860BA77564 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DifeUITests/Pods-DifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4EBF2A8A19D6CB76B80ADB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dife/Pods-Dife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD66A75B7770CBEAD0112C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DifeTests/Pods-DifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6202F33E9EC041E5E19FFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DifeTests/Pods-DifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D55121152057668000623B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D586B51D205F4EDC0066B40A /* DatabaseController.swift in Sources */,
+				D5F658BA2062C80500319246 /* feedbackViewController.swift in Sources */,
+				D551211F2057668000623B21 /* homeViewController.swift in Sources */,
+				D55121252057668000623B21 /* Dife.xcdatamodeld in Sources */,
+				D5F658BC20630DF700319246 /* AlertController.swift in Sources */,
+				D551211D2057668000623B21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D551212C2057668000623B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55121352057668000623B21 /* DifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55121372057668000623B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55121402057668000623B21 /* DifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D55121322057668000623B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55121182057668000623B21 /* Dife */;
+			targetProxy = D55121312057668000623B21 /* PBXContainerItemProxy */;
+		};
+		D551213D2057668000623B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D55121182057668000623B21 /* Dife */;
+			targetProxy = D551213C2057668000623B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D55121202057668000623B21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55121212057668000623B21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D55121282057668000623B21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55121292057668000623B21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D55121422057668000623B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D55121432057668000623B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D55121452057668000623B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E431CE5F3521526DC168E8 /* Pods-Dife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				INFOPLIST_FILE = Dife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Dife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
+			};
+			name = Debug;
+		};
+		D55121462057668000623B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26215373534636014DDE2126 /* Pods-Dife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				INFOPLIST_FILE = Dife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Dife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO;
+			};
+			name = Release;
+		};
+		D55121482057668000623B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5689C4FB5E359F81E469163 /* Pods-DifeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				INFOPLIST_FILE = DifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.DifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dife.app/Dife";
+			};
+			name = Debug;
+		};
+		D55121492057668000623B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0F48AA85968746A874A63C /* Pods-DifeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				INFOPLIST_FILE = DifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.DifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dife.app/Dife";
+			};
+			name = Release;
+		};
+		D551214B2057668000623B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4693D957BE88CF3A4BB5A2 /* Pods-DifeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				INFOPLIST_FILE = DifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.DifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dife;
+			};
+			name = Debug;
+		};
+		D551214C2057668000623B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0CC5C097C4A4E6269BC90D /* Pods-DifeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				INFOPLIST_FILE = DifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.DifeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D55121142057668000623B21 /* Build configuration list for PBXProject "Dife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55121422057668000623B21 /* Debug */,
+				D55121432057668000623B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55121442057668000623B21 /* Build configuration list for PBXNativeTarget "Dife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55121452057668000623B21 /* Debug */,
+				D55121462057668000623B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55121472057668000623B21 /* Build configuration list for PBXNativeTarget "DifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55121482057668000623B21 /* Debug */,
+				D55121492057668000623B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D551214A2057668000623B21 /* Build configuration list for PBXNativeTarget "DifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D551214B2057668000623B21 /* Debug */,
+				D551214C2057668000623B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D55121232057668000623B21 /* Dife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D55121242057668000623B21 /* Dife.xcdatamodel */,
+			);
+			currentVersion = D55121242057668000623B21 /* Dife.xcdatamodel */;
+			path = Dife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D55121112057668000623B21 /* Project object */;
+}

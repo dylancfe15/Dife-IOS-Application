@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Question" representedClassName="Question" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="choiceA" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="choiceB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="choiceC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="choiceD" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correctAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="questionDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="questionNum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="questionTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userAnswer" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rated" representedClassName="Rated" syncable="YES" codeGenerationType="class">
+        <attribute name="rated" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Question" positionX="-63" positionY="-18" width="128" height="225"/>
+        <element name="Rated" positionX="-54" positionY="81" width="128" height="60"/>
+    </elements>
+</model>
